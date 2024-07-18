@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18527A212C465CC800A26150 /* greatify_machine_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527A202C465CC800A26150 /* greatify_machine_testApp.swift */; };
+		18527A232C465CC800A26150 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527A222C465CC800A26150 /* ContentView.swift */; };
+		18527A252C465CC900A26150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18527A242C465CC900A26150 /* Assets.xcassets */; };
+		18527A282C465CC900A26150 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18527A272C465CC900A26150 /* Preview Assets.xcassets */; };
+		18527A2A2C465CC900A26150 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527A292C465CC900A26150 /* Persistence.swift */; };
+		18527A2D2C465CC900A26150 /* greatify_machine_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18527A2B2C465CC900A26150 /* greatify_machine_test.xcdatamodeld */; };
+		18527A372C465CC900A26150 /* greatify_machine_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527A362C465CC900A26150 /* greatify_machine_testTests.swift */; };
+		18527A412C465CC900A26150 /* greatify_machine_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527A402C465CC900A26150 /* greatify_machine_testUITests.swift */; };
+		18527A432C465CC900A26150 /* greatify_machine_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527A422C465CC900A26150 /* greatify_machine_testUITestsLaunchTests.swift */; };
+		18527A552C465DA400A26150 /*  Login Page View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527A542C465DA400A26150 /*  Login Page View.swift */; };
+		18527AC52C46738700A26150 /* Text Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527AC42C46738700A26150 /* Text Extension.swift */; };
+		18527AFF2C46BB5300A26150 /* Yellix-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AC92C46BB5100A26150 /* Yellix-Bold.ttf */; };
+		18527B002C46BB5300A26150 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 18527ACA2C46BB5100A26150 /* demo.html */; };
+		18527B012C46BB5300A26150 /* Yellix-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527ACB2C46BB5100A26150 /* Yellix-Regular.woff2 */; };
+		18527B022C46BB5300A26150 /* Yellix-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527ACC2C46BB5100A26150 /* Yellix-Thin.woff */; };
+		18527B032C46BB5300A26150 /* Yellix-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527ACD2C46BB5100A26150 /* Yellix-LightItalic.ttf */; };
+		18527B042C46BB5300A26150 /* Yellix-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527ACE2C46BB5100A26150 /* Yellix-MediumItalic.woff */; };
+		18527B052C46BB5300A26150 /* Yellix-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527ACF2C46BB5100A26150 /* Yellix-LightItalic.woff2 */; };
+		18527B062C46BB5300A26150 /* Yellix-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD02C46BB5100A26150 /* Yellix-Black.ttf */; };
+		18527B072C46BB5300A26150 /* Yellix-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD12C46BB5100A26150 /* Yellix-SemiBold.ttf */; };
+		18527B082C46BB5300A26150 /* Yellix-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD22C46BB5100A26150 /* Yellix-ExtraBoldItalic.ttf */; };
+		18527B092C46BB5300A26150 /* Yellix-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD32C46BB5100A26150 /* Yellix-Medium.woff2 */; };
+		18527B0A2C46BB5300A26150 /* Yellix-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD42C46BB5100A26150 /* Yellix-Medium.ttf */; };
+		18527B0B2C46BB5300A26150 /* Yellix-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD52C46BB5100A26150 /* Yellix-Thin.woff2 */; };
+		18527B0C2C46BB5300A26150 /* Yellix-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD62C46BB5100A26150 /* Yellix-ExtraBold.woff2 */; };
+		18527B0D2C46BB5300A26150 /* Yellix-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD72C46BB5100A26150 /* Yellix-MediumItalic.woff2 */; };
+		18527B0E2C46BB5300A26150 /* Yellix-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD82C46BB5100A26150 /* Yellix-Thin.ttf */; };
+		18527B0F2C46BB5300A26150 /* Yellix-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AD92C46BB5100A26150 /* Yellix-BlackItalic.ttf */; };
+		18527B102C46BB5300A26150 /* Yellix-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527ADA2C46BB5100A26150 /* Yellix-BoldItalic.eot */; };
+		18527B112C46BB5300A26150 /* Yellix-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527ADB2C46BB5100A26150 /* Yellix-BoldItalic.woff2 */; };
+		18527B122C46BB5300A26150 /* Yellix-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527ADC2C46BB5200A26150 /* Yellix-ExtraBold.woff */; };
+		18527B132C46BB5300A26150 /* Yellix-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527ADD2C46BB5200A26150 /* Yellix-BlackItalic.woff2 */; };
+		18527B142C46BB5300A26150 /* Yellix-ExtraBoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527ADE2C46BB5200A26150 /* Yellix-ExtraBoldItalic.woff */; };
+		18527B152C46BB5300A26150 /* Yellix-LightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527ADF2C46BB5200A26150 /* Yellix-LightItalic.eot */; };
+		18527B162C46BB5300A26150 /* Yellix-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE02C46BB5200A26150 /* Yellix-Light.ttf */; };
+		18527B172C46BB5300A26150 /* Yellix-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE12C46BB5200A26150 /* Yellix-Black.woff */; };
+		18527B182C46BB5300A26150 /* Yellix-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE22C46BB5200A26150 /* Yellix-Medium.woff */; };
+		18527B192C46BB5300A26150 /* Yellix-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE32C46BB5200A26150 /* Yellix-ExtraBold.ttf */; };
+		18527B1A2C46BB5300A26150 /* Yellix-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE42C46BB5200A26150 /* Yellix-LightItalic.woff */; };
+		18527B1B2C46BB5300A26150 /* Yellix-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE52C46BB5200A26150 /* Yellix-Bold.woff */; };
+		18527B1C2C46BB5300A26150 /* Yellix-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE62C46BB5200A26150 /* Yellix-Bold.eot */; };
+		18527B1D2C46BB5300A26150 /* Yellix-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE72C46BB5200A26150 /* Yellix-Light.woff */; };
+		18527B1E2C46BB5300A26150 /* Yellix-Thin.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE82C46BB5200A26150 /* Yellix-Thin.eot */; };
+		18527B1F2C46BB5300A26150 /* Yellix-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AE92C46BB5200A26150 /* Yellix-Regular.woff */; };
+		18527B202C46BB5300A26150 /* Yellix-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AEA2C46BB5200A26150 /* Yellix-Bold.woff2 */; };
+		18527B212C46BB5300A26150 /* Yellix-SemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AEB2C46BB5200A26150 /* Yellix-SemiBold.woff */; };
+		18527B222C46BB5300A26150 /* Yellix-ExtraBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AEC2C46BB5200A26150 /* Yellix-ExtraBold.eot */; };
+		18527B232C46BB5300A26150 /* Yellix-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AED2C46BB5200A26150 /* Yellix-Medium.eot */; };
+		18527B242C46BB5300A26150 /* Yellix-MediumItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AEE2C46BB5200A26150 /* Yellix-MediumItalic.eot */; };
+		18527B252C46BB5300A26150 /* Yellix-ExtraBoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AEF2C46BB5200A26150 /* Yellix-ExtraBoldItalic.woff2 */; };
+		18527B262C46BB5300A26150 /* Yellix-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF02C46BB5200A26150 /* Yellix-Black.eot */; };
+		18527B272C46BB5300A26150 /* Yellix-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF12C46BB5200A26150 /* Yellix-Black.woff2 */; };
+		18527B282C46BB5300A26150 /* Yellix-ExtraBoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF22C46BB5200A26150 /* Yellix-ExtraBoldItalic.eot */; };
+		18527B292C46BB5300A26150 /* Yellix-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF32C46BB5200A26150 /* Yellix-Regular.ttf */; };
+		18527B2A2C46BB5300A26150 /* Yellix-BlackItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF42C46BB5200A26150 /* Yellix-BlackItalic.eot */; };
+		18527B2B2C46BB5300A26150 /* Yellix-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF52C46BB5200A26150 /* Yellix-Light.woff2 */; };
+		18527B2C2C46BB5300A26150 /* Yellix-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF62C46BB5200A26150 /* Yellix-Light.eot */; };
+		18527B2D2C46BB5300A26150 /* Yellix-SemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF72C46BB5200A26150 /* Yellix-SemiBold.woff2 */; };
+		18527B2E2C46BB5300A26150 /* Yellix-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF82C46BB5200A26150 /* Yellix-BoldItalic.woff */; };
+		18527B2F2C46BB5300A26150 /* Yellix-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AF92C46BB5200A26150 /* Yellix-MediumItalic.ttf */; };
+		18527B302C46BB5300A26150 /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = 18527AFA2C46BB5200A26150 /* stylesheet.css */; };
+		18527B312C46BB5300A26150 /* Yellix-SemiBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AFB2C46BB5200A26150 /* Yellix-SemiBold.eot */; };
+		18527B322C46BB5300A26150 /* Yellix-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 18527AFC2C46BB5200A26150 /* Yellix-Regular.eot */; };
+		18527B332C46BB5300A26150 /* Yellix-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 18527AFD2C46BB5200A26150 /* Yellix-BlackItalic.woff */; };
+		18527B342C46BB5300A26150 /* Yellix-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18527AFE2C46BB5300A26150 /* Yellix-BoldItalic.ttf */; };
+		18527B382C46CE8D00A26150 /* Dashboard Root View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B372C46CE8D00A26150 /* Dashboard Root View.swift */; };
+		18527B3C2C477C5F00A26150 /* Test Card Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B3B2C477C5F00A26150 /* Test Card Model.swift */; };
+		18527B3E2C477C9300A26150 /* TestCar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B3D2C477C9300A26150 /* TestCar View.swift */; };
+		18527B402C477CBA00A26150 /* AlertBar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B3F2C477CBA00A26150 /* AlertBar View.swift */; };
+		18527B422C477CF300A26150 /* SearchBar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B412C477CF300A26150 /* SearchBar View.swift */; };
+		18527B442C477D9800A26150 /* Header Bar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B432C477D9800A26150 /* Header Bar View.swift */; };
+		18527B662C479B2400A26150 /* Subject Test Mark Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B652C479B2400A26150 /* Subject Test Mark Model.swift */; };
+		18527B6A2C47A6DC00A26150 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 18527B692C47A6DC00A26150 /* SwiftUIIntrospect */; };
+		18527B6C2C47A70600A26150 /* SwiftUIIntrospect-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 18527B6B2C47A70600A26150 /* SwiftUIIntrospect-Dynamic */; };
+		18527B6D2C47A70600A26150 /* SwiftUIIntrospect-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 18527B6B2C47A70600A26150 /* SwiftUIIntrospect-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		18527B702C47A70900A26150 /* SwiftUIIntrospect-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 18527B6F2C47A70900A26150 /* SwiftUIIntrospect-Static */; };
+		18527B722C47B8DF00A26150 /* Subject Scores Card View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B712C47B8DF00A26150 /* Subject Scores Card View.swift */; };
+		18527B742C47D5B300A26150 /* Semester Result CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B732C47D5B300A26150 /* Semester Result CardView.swift */; };
+		18527B762C47D5F800A26150 /* ProgressBar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B752C47D5F800A26150 /* ProgressBar View.swift */; };
+		18527B782C480DD400A26150 /* Upcoming Tests Card View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B772C480DD400A26150 /* Upcoming Tests Card View.swift */; };
+		18527B7A2C481EFF00A26150 /* Passed Tests Card View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B792C481EFF00A26150 /* Passed Tests Card View.swift */; };
+		18527B7C2C48300100A26150 /* Failed Tests Card View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B7B2C48300100A26150 /* Failed Tests Card View.swift */; };
+		18527B7F2C48B89D00A26150 /* List View Root view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B7E2C48B89D00A26150 /* List View Root view.swift */; };
+		18527B812C48DB6300A26150 /* Review Header View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B802C48DB6300A26150 /* Review Header View.swift */; };
+		18527B842C48DBBB00A26150 /* Circular Progress Bar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B832C48DBBB00A26150 /* Circular Progress Bar View.swift */; };
+		18527B862C48DC9700A26150 /* Review Info Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B852C48DC9700A26150 /* Review Info Model.swift */; };
+		18527B882C48F26900A26150 /* Review Info Car View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B872C48F26900A26150 /* Review Info Car View.swift */; };
+		18527B8A2C4900A100A26150 /* Review Question Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B892C4900A000A26150 /* Review Question Model.swift */; };
+		18527B8C2C49013B00A26150 /* Question Review Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527B8B2C49013B00A26150 /* Question Review Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18527A332C465CC900A26150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18527A152C465CC800A26150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18527A1C2C465CC800A26150;
+			remoteInfo = "greatify machine test";
+		};
+		18527A3D2C465CC900A26150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18527A152C465CC800A26150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18527A1C2C465CC800A26150;
+			remoteInfo = "greatify machine test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18527B6E2C47A70600A26150 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18527B6D2C47A70600A26150 /* SwiftUIIntrospect-Dynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18527A1D2C465CC800A26150 /* greatify machine test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "greatify machine test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18527A202C465CC800A26150 /* greatify_machine_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatify_machine_testApp.swift; sourceTree = "<group>"; };
+		18527A222C465CC800A26150 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18527A242C465CC900A26150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18527A272C465CC900A26150 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18527A292C465CC900A26150 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		18527A2C2C465CC900A26150 /* greatify_machine_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = greatify_machine_test.xcdatamodel; sourceTree = "<group>"; };
+		18527A322C465CC900A26150 /* greatify machine testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "greatify machine testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18527A362C465CC900A26150 /* greatify_machine_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatify_machine_testTests.swift; sourceTree = "<group>"; };
+		18527A3C2C465CC900A26150 /* greatify machine testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "greatify machine testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18527A402C465CC900A26150 /* greatify_machine_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatify_machine_testUITests.swift; sourceTree = "<group>"; };
+		18527A422C465CC900A26150 /* greatify_machine_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatify_machine_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18527A542C465DA400A26150 /*  Login Page View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Login Page View.swift"; sourceTree = "<group>"; };
+		18527AC32C46717700A26150 /* greatify-machine-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "greatify-machine-test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		18527AC42C46738700A26150 /* Text Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text Extension.swift"; sourceTree = "<group>"; };
+		18527AC92C46BB5100A26150 /* Yellix-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Bold.ttf"; sourceTree = "<group>"; };
+		18527ACA2C46BB5100A26150 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		18527ACB2C46BB5100A26150 /* Yellix-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Regular.woff2"; sourceTree = "<group>"; };
+		18527ACC2C46BB5100A26150 /* Yellix-Thin.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Thin.woff"; sourceTree = "<group>"; };
+		18527ACD2C46BB5100A26150 /* Yellix-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-LightItalic.ttf"; sourceTree = "<group>"; };
+		18527ACE2C46BB5100A26150 /* Yellix-MediumItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-MediumItalic.woff"; sourceTree = "<group>"; };
+		18527ACF2C46BB5100A26150 /* Yellix-LightItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-LightItalic.woff2"; sourceTree = "<group>"; };
+		18527AD02C46BB5100A26150 /* Yellix-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Black.ttf"; sourceTree = "<group>"; };
+		18527AD12C46BB5100A26150 /* Yellix-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-SemiBold.ttf"; sourceTree = "<group>"; };
+		18527AD22C46BB5100A26150 /* Yellix-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		18527AD32C46BB5100A26150 /* Yellix-Medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Medium.woff2"; sourceTree = "<group>"; };
+		18527AD42C46BB5100A26150 /* Yellix-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Medium.ttf"; sourceTree = "<group>"; };
+		18527AD52C46BB5100A26150 /* Yellix-Thin.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Thin.woff2"; sourceTree = "<group>"; };
+		18527AD62C46BB5100A26150 /* Yellix-ExtraBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-ExtraBold.woff2"; sourceTree = "<group>"; };
+		18527AD72C46BB5100A26150 /* Yellix-MediumItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-MediumItalic.woff2"; sourceTree = "<group>"; };
+		18527AD82C46BB5100A26150 /* Yellix-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Thin.ttf"; sourceTree = "<group>"; };
+		18527AD92C46BB5100A26150 /* Yellix-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-BlackItalic.ttf"; sourceTree = "<group>"; };
+		18527ADA2C46BB5100A26150 /* Yellix-BoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-BoldItalic.eot"; sourceTree = "<group>"; };
+		18527ADB2C46BB5100A26150 /* Yellix-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-BoldItalic.woff2"; sourceTree = "<group>"; };
+		18527ADC2C46BB5200A26150 /* Yellix-ExtraBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-ExtraBold.woff"; sourceTree = "<group>"; };
+		18527ADD2C46BB5200A26150 /* Yellix-BlackItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-BlackItalic.woff2"; sourceTree = "<group>"; };
+		18527ADE2C46BB5200A26150 /* Yellix-ExtraBoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-ExtraBoldItalic.woff"; sourceTree = "<group>"; };
+		18527ADF2C46BB5200A26150 /* Yellix-LightItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-LightItalic.eot"; sourceTree = "<group>"; };
+		18527AE02C46BB5200A26150 /* Yellix-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Light.ttf"; sourceTree = "<group>"; };
+		18527AE12C46BB5200A26150 /* Yellix-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Black.woff"; sourceTree = "<group>"; };
+		18527AE22C46BB5200A26150 /* Yellix-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Medium.woff"; sourceTree = "<group>"; };
+		18527AE32C46BB5200A26150 /* Yellix-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-ExtraBold.ttf"; sourceTree = "<group>"; };
+		18527AE42C46BB5200A26150 /* Yellix-LightItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-LightItalic.woff"; sourceTree = "<group>"; };
+		18527AE52C46BB5200A26150 /* Yellix-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Bold.woff"; sourceTree = "<group>"; };
+		18527AE62C46BB5200A26150 /* Yellix-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Bold.eot"; sourceTree = "<group>"; };
+		18527AE72C46BB5200A26150 /* Yellix-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Light.woff"; sourceTree = "<group>"; };
+		18527AE82C46BB5200A26150 /* Yellix-Thin.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Thin.eot"; sourceTree = "<group>"; };
+		18527AE92C46BB5200A26150 /* Yellix-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Regular.woff"; sourceTree = "<group>"; };
+		18527AEA2C46BB5200A26150 /* Yellix-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Bold.woff2"; sourceTree = "<group>"; };
+		18527AEB2C46BB5200A26150 /* Yellix-SemiBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-SemiBold.woff"; sourceTree = "<group>"; };
+		18527AEC2C46BB5200A26150 /* Yellix-ExtraBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-ExtraBold.eot"; sourceTree = "<group>"; };
+		18527AED2C46BB5200A26150 /* Yellix-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Medium.eot"; sourceTree = "<group>"; };
+		18527AEE2C46BB5200A26150 /* Yellix-MediumItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-MediumItalic.eot"; sourceTree = "<group>"; };
+		18527AEF2C46BB5200A26150 /* Yellix-ExtraBoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-ExtraBoldItalic.woff2"; sourceTree = "<group>"; };
+		18527AF02C46BB5200A26150 /* Yellix-Black.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Black.eot"; sourceTree = "<group>"; };
+		18527AF12C46BB5200A26150 /* Yellix-Black.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Black.woff2"; sourceTree = "<group>"; };
+		18527AF22C46BB5200A26150 /* Yellix-ExtraBoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-ExtraBoldItalic.eot"; sourceTree = "<group>"; };
+		18527AF32C46BB5200A26150 /* Yellix-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Regular.ttf"; sourceTree = "<group>"; };
+		18527AF42C46BB5200A26150 /* Yellix-BlackItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-BlackItalic.eot"; sourceTree = "<group>"; };
+		18527AF52C46BB5200A26150 /* Yellix-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Light.woff2"; sourceTree = "<group>"; };
+		18527AF62C46BB5200A26150 /* Yellix-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Light.eot"; sourceTree = "<group>"; };
+		18527AF72C46BB5200A26150 /* Yellix-SemiBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-SemiBold.woff2"; sourceTree = "<group>"; };
+		18527AF82C46BB5200A26150 /* Yellix-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-BoldItalic.woff"; sourceTree = "<group>"; };
+		18527AF92C46BB5200A26150 /* Yellix-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-MediumItalic.ttf"; sourceTree = "<group>"; };
+		18527AFA2C46BB5200A26150 /* stylesheet.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
+		18527AFB2C46BB5200A26150 /* Yellix-SemiBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-SemiBold.eot"; sourceTree = "<group>"; };
+		18527AFC2C46BB5200A26150 /* Yellix-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-Regular.eot"; sourceTree = "<group>"; };
+		18527AFD2C46BB5200A26150 /* Yellix-BlackItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-BlackItalic.woff"; sourceTree = "<group>"; };
+		18527AFE2C46BB5300A26150 /* Yellix-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellix-BoldItalic.ttf"; sourceTree = "<group>"; };
+		18527B372C46CE8D00A26150 /* Dashboard Root View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard Root View.swift"; sourceTree = "<group>"; };
+		18527B3B2C477C5F00A26150 /* Test Card Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Card Model.swift"; sourceTree = "<group>"; };
+		18527B3D2C477C9300A26150 /* TestCar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestCar View.swift"; sourceTree = "<group>"; };
+		18527B3F2C477CBA00A26150 /* AlertBar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertBar View.swift"; sourceTree = "<group>"; };
+		18527B412C477CF300A26150 /* SearchBar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBar View.swift"; sourceTree = "<group>"; };
+		18527B432C477D9800A26150 /* Header Bar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header Bar View.swift"; sourceTree = "<group>"; };
+		18527B652C479B2400A26150 /* Subject Test Mark Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subject Test Mark Model.swift"; sourceTree = "<group>"; };
+		18527B712C47B8DF00A26150 /* Subject Scores Card View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subject Scores Card View.swift"; sourceTree = "<group>"; };
+		18527B732C47D5B300A26150 /* Semester Result CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Semester Result CardView.swift"; sourceTree = "<group>"; };
+		18527B752C47D5F800A26150 /* ProgressBar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressBar View.swift"; sourceTree = "<group>"; };
+		18527B772C480DD400A26150 /* Upcoming Tests Card View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Upcoming Tests Card View.swift"; sourceTree = "<group>"; };
+		18527B792C481EFF00A26150 /* Passed Tests Card View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passed Tests Card View.swift"; sourceTree = "<group>"; };
+		18527B7B2C48300100A26150 /* Failed Tests Card View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Failed Tests Card View.swift"; sourceTree = "<group>"; };
+		18527B7E2C48B89D00A26150 /* List View Root view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List View Root view.swift"; sourceTree = "<group>"; };
+		18527B802C48DB6300A26150 /* Review Header View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review Header View.swift"; sourceTree = "<group>"; };
+		18527B832C48DBBB00A26150 /* Circular Progress Bar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Circular Progress Bar View.swift"; sourceTree = "<group>"; };
+		18527B852C48DC9700A26150 /* Review Info Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review Info Model.swift"; sourceTree = "<group>"; };
+		18527B872C48F26900A26150 /* Review Info Car View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review Info Car View.swift"; sourceTree = "<group>"; };
+		18527B892C4900A000A26150 /* Review Question Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review Question Model.swift"; sourceTree = "<group>"; };
+		18527B8B2C49013B00A26150 /* Question Review Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question Review Card.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18527A1A2C465CC800A26150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18527B6A2C47A6DC00A26150 /* SwiftUIIntrospect in Frameworks */,
+				18527B6C2C47A70600A26150 /* SwiftUIIntrospect-Dynamic in Frameworks */,
+				18527B702C47A70900A26150 /* SwiftUIIntrospect-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18527A2F2C465CC900A26150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18527A392C465CC900A26150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18527A142C465CC800A26150 = {
+			isa = PBXGroup;
+			children = (
+				18527A1F2C465CC800A26150 /* greatify machine test */,
+				18527A352C465CC900A26150 /* greatify machine testTests */,
+				18527A3F2C465CC900A26150 /* greatify machine testUITests */,
+				18527A1E2C465CC800A26150 /* Products */,
+				18527B682C47A6DC00A26150 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18527A1E2C465CC800A26150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18527A1D2C465CC800A26150 /* greatify machine test.app */,
+				18527A322C465CC900A26150 /* greatify machine testTests.xctest */,
+				18527A3C2C465CC900A26150 /* greatify machine testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18527A1F2C465CC800A26150 /* greatify machine test */ = {
+			isa = PBXGroup;
+			children = (
+				18527B3A2C477C3400A26150 /* Model */,
+				18527AC72C46BACC00A26150 /* Font */,
+				18527AC62C4673ED00A26150 /* HelperFile */,
+				18527AC32C46717700A26150 /* greatify-machine-test-Info.plist */,
+				18527A4F2C465D1400A26150 /* View */,
+				18527A202C465CC800A26150 /* greatify_machine_testApp.swift */,
+				18527A222C465CC800A26150 /* ContentView.swift */,
+				18527A242C465CC900A26150 /* Assets.xcassets */,
+				18527A292C465CC900A26150 /* Persistence.swift */,
+				18527A2B2C465CC900A26150 /* greatify_machine_test.xcdatamodeld */,
+				18527A262C465CC900A26150 /* Preview Content */,
+			);
+			path = "greatify machine test";
+			sourceTree = "<group>";
+		};
+		18527A262C465CC900A26150 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18527A272C465CC900A26150 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18527A352C465CC900A26150 /* greatify machine testTests */ = {
+			isa = PBXGroup;
+			children = (
+				18527A362C465CC900A26150 /* greatify_machine_testTests.swift */,
+			);
+			path = "greatify machine testTests";
+			sourceTree = "<group>";
+		};
+		18527A3F2C465CC900A26150 /* greatify machine testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18527A402C465CC900A26150 /* greatify_machine_testUITests.swift */,
+				18527A422C465CC900A26150 /* greatify_machine_testUITestsLaunchTests.swift */,
+			);
+			path = "greatify machine testUITests";
+			sourceTree = "<group>";
+		};
+		18527A4F2C465D1400A26150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18527B822C48DB8B00A26150 /* Helper View */,
+				18527B7D2C48B87600A26150 /* List Review View */,
+				18527B392C477C0F00A26150 /* Dashboard */,
+				18527A542C465DA400A26150 /*  Login Page View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18527AC62C4673ED00A26150 /* HelperFile */ = {
+			isa = PBXGroup;
+			children = (
+				18527AC42C46738700A26150 /* Text Extension.swift */,
+			);
+			path = HelperFile;
+			sourceTree = "<group>";
+		};
+		18527AC72C46BACC00A26150 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				18527ACA2C46BB5100A26150 /* demo.html */,
+				18527AFA2C46BB5200A26150 /* stylesheet.css */,
+				18527AF02C46BB5200A26150 /* Yellix-Black.eot */,
+				18527AD02C46BB5100A26150 /* Yellix-Black.ttf */,
+				18527AE12C46BB5200A26150 /* Yellix-Black.woff */,
+				18527AF12C46BB5200A26150 /* Yellix-Black.woff2 */,
+				18527AF42C46BB5200A26150 /* Yellix-BlackItalic.eot */,
+				18527AD92C46BB5100A26150 /* Yellix-BlackItalic.ttf */,
+				18527AFD2C46BB5200A26150 /* Yellix-BlackItalic.woff */,
+				18527ADD2C46BB5200A26150 /* Yellix-BlackItalic.woff2 */,
+				18527AE62C46BB5200A26150 /* Yellix-Bold.eot */,
+				18527AC92C46BB5100A26150 /* Yellix-Bold.ttf */,
+				18527AE52C46BB5200A26150 /* Yellix-Bold.woff */,
+				18527AEA2C46BB5200A26150 /* Yellix-Bold.woff2 */,
+				18527ADA2C46BB5100A26150 /* Yellix-BoldItalic.eot */,
+				18527AFE2C46BB5300A26150 /* Yellix-BoldItalic.ttf */,
+				18527AF82C46BB5200A26150 /* Yellix-BoldItalic.woff */,
+				18527ADB2C46BB5100A26150 /* Yellix-BoldItalic.woff2 */,
+				18527AEC2C46BB5200A26150 /* Yellix-ExtraBold.eot */,
+				18527AE32C46BB5200A26150 /* Yellix-ExtraBold.ttf */,
+				18527ADC2C46BB5200A26150 /* Yellix-ExtraBold.woff */,
+				18527AD62C46BB5100A26150 /* Yellix-ExtraBold.woff2 */,
+				18527AF22C46BB5200A26150 /* Yellix-ExtraBoldItalic.eot */,
+				18527AD22C46BB5100A26150 /* Yellix-ExtraBoldItalic.ttf */,
+				18527ADE2C46BB5200A26150 /* Yellix-ExtraBoldItalic.woff */,
+				18527AEF2C46BB5200A26150 /* Yellix-ExtraBoldItalic.woff2 */,
+				18527AF62C46BB5200A26150 /* Yellix-Light.eot */,
+				18527AE02C46BB5200A26150 /* Yellix-Light.ttf */,
+				18527AE72C46BB5200A26150 /* Yellix-Light.woff */,
+				18527AF52C46BB5200A26150 /* Yellix-Light.woff2 */,
+				18527ADF2C46BB5200A26150 /* Yellix-LightItalic.eot */,
+				18527ACD2C46BB5100A26150 /* Yellix-LightItalic.ttf */,
+				18527AE42C46BB5200A26150 /* Yellix-LightItalic.woff */,
+				18527ACF2C46BB5100A26150 /* Yellix-LightItalic.woff2 */,
+				18527AED2C46BB5200A26150 /* Yellix-Medium.eot */,
+				18527AD42C46BB5100A26150 /* Yellix-Medium.ttf */,
+				18527AE22C46BB5200A26150 /* Yellix-Medium.woff */,
+				18527AD32C46BB5100A26150 /* Yellix-Medium.woff2 */,
+				18527AEE2C46BB5200A26150 /* Yellix-MediumItalic.eot */,
+				18527AF92C46BB5200A26150 /* Yellix-MediumItalic.ttf */,
+				18527ACE2C46BB5100A26150 /* Yellix-MediumItalic.woff */,
+				18527AD72C46BB5100A26150 /* Yellix-MediumItalic.woff2 */,
+				18527AFC2C46BB5200A26150 /* Yellix-Regular.eot */,
+				18527AF32C46BB5200A26150 /* Yellix-Regular.ttf */,
+				18527AE92C46BB5200A26150 /* Yellix-Regular.woff */,
+				18527ACB2C46BB5100A26150 /* Yellix-Regular.woff2 */,
+				18527AFB2C46BB5200A26150 /* Yellix-SemiBold.eot */,
+				18527AD12C46BB5100A26150 /* Yellix-SemiBold.ttf */,
+				18527AEB2C46BB5200A26150 /* Yellix-SemiBold.woff */,
+				18527AF72C46BB5200A26150 /* Yellix-SemiBold.woff2 */,
+				18527AE82C46BB5200A26150 /* Yellix-Thin.eot */,
+				18527AD82C46BB5100A26150 /* Yellix-Thin.ttf */,
+				18527ACC2C46BB5100A26150 /* Yellix-Thin.woff */,
+				18527AD52C46BB5100A26150 /* Yellix-Thin.woff2 */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		18527B392C477C0F00A26150 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				18527B372C46CE8D00A26150 /* Dashboard Root View.swift */,
+				18527B3D2C477C9300A26150 /* TestCar View.swift */,
+				18527B3F2C477CBA00A26150 /* AlertBar View.swift */,
+				18527B412C477CF300A26150 /* SearchBar View.swift */,
+				18527B432C477D9800A26150 /* Header Bar View.swift */,
+				18527B712C47B8DF00A26150 /* Subject Scores Card View.swift */,
+				18527B732C47D5B300A26150 /* Semester Result CardView.swift */,
+				18527B752C47D5F800A26150 /* ProgressBar View.swift */,
+				18527B772C480DD400A26150 /* Upcoming Tests Card View.swift */,
+				18527B792C481EFF00A26150 /* Passed Tests Card View.swift */,
+				18527B7B2C48300100A26150 /* Failed Tests Card View.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		18527B3A2C477C3400A26150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18527B3B2C477C5F00A26150 /* Test Card Model.swift */,
+				18527B652C479B2400A26150 /* Subject Test Mark Model.swift */,
+				18527B852C48DC9700A26150 /* Review Info Model.swift */,
+				18527B892C4900A000A26150 /* Review Question Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18527B682C47A6DC00A26150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18527B7D2C48B87600A26150 /* List Review View */ = {
+			isa = PBXGroup;
+			children = (
+				18527B7E2C48B89D00A26150 /* List View Root view.swift */,
+				18527B802C48DB6300A26150 /* Review Header View.swift */,
+				18527B872C48F26900A26150 /* Review Info Car View.swift */,
+				18527B8B2C49013B00A26150 /* Question Review Card.swift */,
+			);
+			path = "List Review View";
+			sourceTree = "<group>";
+		};
+		18527B822C48DB8B00A26150 /* Helper View */ = {
+			isa = PBXGroup;
+			children = (
+				18527B832C48DBBB00A26150 /* Circular Progress Bar View.swift */,
+			);
+			path = "Helper View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18527A1C2C465CC800A26150 /* greatify machine test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18527A462C465CC900A26150 /* Build configuration list for PBXNativeTarget "greatify machine test" */;
+			buildPhases = (
+				18527A192C465CC800A26150 /* Sources */,
+				18527A1A2C465CC800A26150 /* Frameworks */,
+				18527A1B2C465CC800A26150 /* Resources */,
+				18527B6E2C47A70600A26150 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "greatify machine test";
+			packageProductDependencies = (
+				18527B692C47A6DC00A26150 /* SwiftUIIntrospect */,
+				18527B6B2C47A70600A26150 /* SwiftUIIntrospect-Dynamic */,
+				18527B6F2C47A70900A26150 /* SwiftUIIntrospect-Static */,
+			);
+			productName = "greatify machine test";
+			productReference = 18527A1D2C465CC800A26150 /* greatify machine test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18527A312C465CC900A26150 /* greatify machine testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18527A492C465CC900A26150 /* Build configuration list for PBXNativeTarget "greatify machine testTests" */;
+			buildPhases = (
+				18527A2E2C465CC900A26150 /* Sources */,
+				18527A2F2C465CC900A26150 /* Frameworks */,
+				18527A302C465CC900A26150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18527A342C465CC900A26150 /* PBXTargetDependency */,
+			);
+			name = "greatify machine testTests";
+			productName = "greatify machine testTests";
+			productReference = 18527A322C465CC900A26150 /* greatify machine testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18527A3B2C465CC900A26150 /* greatify machine testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18527A4C2C465CC900A26150 /* Build configuration list for PBXNativeTarget "greatify machine testUITests" */;
+			buildPhases = (
+				18527A382C465CC900A26150 /* Sources */,
+				18527A392C465CC900A26150 /* Frameworks */,
+				18527A3A2C465CC900A26150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18527A3E2C465CC900A26150 /* PBXTargetDependency */,
+			);
+			name = "greatify machine testUITests";
+			productName = "greatify machine testUITests";
+			productReference = 18527A3C2C465CC900A26150 /* greatify machine testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18527A152C465CC800A26150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					18527A1C2C465CC800A26150 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					18527A312C465CC900A26150 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 18527A1C2C465CC800A26150;
+					};
+					18527A3B2C465CC900A26150 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 18527A1C2C465CC800A26150;
+					};
+				};
+			};
+			buildConfigurationList = 18527A182C465CC800A26150 /* Build configuration list for PBXProject "greatify machine test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18527A142C465CC800A26150;
+			packageReferences = (
+				18527B672C47A6CB00A26150 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
+			productRefGroup = 18527A1E2C465CC800A26150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18527A1C2C465CC800A26150 /* greatify machine test */,
+				18527A312C465CC900A26150 /* greatify machine testTests */,
+				18527A3B2C465CC900A26150 /* greatify machine testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18527A1B2C465CC800A26150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18527B322C46BB5300A26150 /* Yellix-Regular.eot in Resources */,
+				18527B162C46BB5300A26150 /* Yellix-Light.ttf in Resources */,
+				18527B0D2C46BB5300A26150 /* Yellix-MediumItalic.woff2 in Resources */,
+				18527B2C2C46BB5300A26150 /* Yellix-Light.eot in Resources */,
+				18527B0B2C46BB5300A26150 /* Yellix-Thin.woff2 in Resources */,
+				18527B132C46BB5300A26150 /* Yellix-BlackItalic.woff2 in Resources */,
+				18527B1D2C46BB5300A26150 /* Yellix-Light.woff in Resources */,
+				18527B0C2C46BB5300A26150 /* Yellix-ExtraBold.woff2 in Resources */,
+				18527A282C465CC900A26150 /* Preview Assets.xcassets in Resources */,
+				18527B282C46BB5300A26150 /* Yellix-ExtraBoldItalic.eot in Resources */,
+				18527B0E2C46BB5300A26150 /* Yellix-Thin.ttf in Resources */,
+				18527B202C46BB5300A26150 /* Yellix-Bold.woff2 in Resources */,
+				18527B2E2C46BB5300A26150 /* Yellix-BoldItalic.woff in Resources */,
+				18527B062C46BB5300A26150 /* Yellix-Black.ttf in Resources */,
+				18527B212C46BB5300A26150 /* Yellix-SemiBold.woff in Resources */,
+				18527B2D2C46BB5300A26150 /* Yellix-SemiBold.woff2 in Resources */,
+				18527B022C46BB5300A26150 /* Yellix-Thin.woff in Resources */,
+				18527B012C46BB5300A26150 /* Yellix-Regular.woff2 in Resources */,
+				18527B1C2C46BB5300A26150 /* Yellix-Bold.eot in Resources */,
+				18527B042C46BB5300A26150 /* Yellix-MediumItalic.woff in Resources */,
+				18527B292C46BB5300A26150 /* Yellix-Regular.ttf in Resources */,
+				18527B222C46BB5300A26150 /* Yellix-ExtraBold.eot in Resources */,
+				18527B082C46BB5300A26150 /* Yellix-ExtraBoldItalic.ttf in Resources */,
+				18527B052C46BB5300A26150 /* Yellix-LightItalic.woff2 in Resources */,
+				18527B302C46BB5300A26150 /* stylesheet.css in Resources */,
+				18527B032C46BB5300A26150 /* Yellix-LightItalic.ttf in Resources */,
+				18527B252C46BB5300A26150 /* Yellix-ExtraBoldItalic.woff2 in Resources */,
+				18527B122C46BB5300A26150 /* Yellix-ExtraBold.woff in Resources */,
+				18527B272C46BB5300A26150 /* Yellix-Black.woff2 in Resources */,
+				18527B172C46BB5300A26150 /* Yellix-Black.woff in Resources */,
+				18527B2A2C46BB5300A26150 /* Yellix-BlackItalic.eot in Resources */,
+				18527B092C46BB5300A26150 /* Yellix-Medium.woff2 in Resources */,
+				18527B2F2C46BB5300A26150 /* Yellix-MediumItalic.ttf in Resources */,
+				18527B1B2C46BB5300A26150 /* Yellix-Bold.woff in Resources */,
+				18527B152C46BB5300A26150 /* Yellix-LightItalic.eot in Resources */,
+				18527B072C46BB5300A26150 /* Yellix-SemiBold.ttf in Resources */,
+				18527B182C46BB5300A26150 /* Yellix-Medium.woff in Resources */,
+				18527B232C46BB5300A26150 /* Yellix-Medium.eot in Resources */,
+				18527B002C46BB5300A26150 /* demo.html in Resources */,
+				18527AFF2C46BB5300A26150 /* Yellix-Bold.ttf in Resources */,
+				18527B142C46BB5300A26150 /* Yellix-ExtraBoldItalic.woff in Resources */,
+				18527B262C46BB5300A26150 /* Yellix-Black.eot in Resources */,
+				18527B1E2C46BB5300A26150 /* Yellix-Thin.eot in Resources */,
+				18527B192C46BB5300A26150 /* Yellix-ExtraBold.ttf in Resources */,
+				18527B342C46BB5300A26150 /* Yellix-BoldItalic.ttf in Resources */,
+				18527B242C46BB5300A26150 /* Yellix-MediumItalic.eot in Resources */,
+				18527B0A2C46BB5300A26150 /* Yellix-Medium.ttf in Resources */,
+				18527A252C465CC900A26150 /* Assets.xcassets in Resources */,
+				18527B102C46BB5300A26150 /* Yellix-BoldItalic.eot in Resources */,
+				18527B332C46BB5300A26150 /* Yellix-BlackItalic.woff in Resources */,
+				18527B1F2C46BB5300A26150 /* Yellix-Regular.woff in Resources */,
+				18527B1A2C46BB5300A26150 /* Yellix-LightItalic.woff in Resources */,
+				18527B0F2C46BB5300A26150 /* Yellix-BlackItalic.ttf in Resources */,
+				18527B112C46BB5300A26150 /* Yellix-BoldItalic.woff2 in Resources */,
+				18527B312C46BB5300A26150 /* Yellix-SemiBold.eot in Resources */,
+				18527B2B2C46BB5300A26150 /* Yellix-Light.woff2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18527A302C465CC900A26150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18527A3A2C465CC900A26150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18527A192C465CC800A26150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18527B8A2C4900A100A26150 /* Review Question Model.swift in Sources */,
+				18527A2D2C465CC900A26150 /* greatify_machine_test.xcdatamodeld in Sources */,
+				18527B442C477D9800A26150 /* Header Bar View.swift in Sources */,
+				18527A2A2C465CC900A26150 /* Persistence.swift in Sources */,
+				18527AC52C46738700A26150 /* Text Extension.swift in Sources */,
+				18527B812C48DB6300A26150 /* Review Header View.swift in Sources */,
+				18527B782C480DD400A26150 /* Upcoming Tests Card View.swift in Sources */,
+				18527B842C48DBBB00A26150 /* Circular Progress Bar View.swift in Sources */,
+				18527B3C2C477C5F00A26150 /* Test Card Model.swift in Sources */,
+				18527B8C2C49013B00A26150 /* Question Review Card.swift in Sources */,
+				18527A552C465DA400A26150 /*  Login Page View.swift in Sources */,
+				18527B762C47D5F800A26150 /* ProgressBar View.swift in Sources */,
+				18527B3E2C477C9300A26150 /* TestCar View.swift in Sources */,
+				18527B7A2C481EFF00A26150 /* Passed Tests Card View.swift in Sources */,
+				18527B7F2C48B89D00A26150 /* List View Root view.swift in Sources */,
+				18527A232C465CC800A26150 /* ContentView.swift in Sources */,
+				18527B422C477CF300A26150 /* SearchBar View.swift in Sources */,
+				18527B382C46CE8D00A26150 /* Dashboard Root View.swift in Sources */,
+				18527B742C47D5B300A26150 /* Semester Result CardView.swift in Sources */,
+				18527B402C477CBA00A26150 /* AlertBar View.swift in Sources */,
+				18527A212C465CC800A26150 /* greatify_machine_testApp.swift in Sources */,
+				18527B662C479B2400A26150 /* Subject Test Mark Model.swift in Sources */,
+				18527B882C48F26900A26150 /* Review Info Car View.swift in Sources */,
+				18527B722C47B8DF00A26150 /* Subject Scores Card View.swift in Sources */,
+				18527B862C48DC9700A26150 /* Review Info Model.swift in Sources */,
+				18527B7C2C48300100A26150 /* Failed Tests Card View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18527A2E2C465CC900A26150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18527A372C465CC900A26150 /* greatify_machine_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18527A382C465CC900A26150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18527A412C465CC900A26150 /* greatify_machine_testUITests.swift in Sources */,
+				18527A432C465CC900A26150 /* greatify_machine_testUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18527A342C465CC900A26150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18527A1C2C465CC800A26150 /* greatify machine test */;
+			targetProxy = 18527A332C465CC900A26150 /* PBXContainerItemProxy */;
+		};
+		18527A3E2C465CC900A26150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18527A1C2C465CC800A26150 /* greatify machine test */;
+			targetProxy = 18527A3D2C465CC900A26150 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18527A442C465CC900A26150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18527A452C465CC900A26150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18527A472C465CC900A26150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"greatify machine test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "greatify-machine-test-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.greatify-machine-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18527A482C465CC900A26150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"greatify machine test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "greatify-machine-test-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.greatify-machine-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18527A4A2C465CC900A26150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.greatify-machine-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greatify machine test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/greatify machine test";
+			};
+			name = Debug;
+		};
+		18527A4B2C465CC900A26150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.greatify-machine-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greatify machine test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/greatify machine test";
+			};
+			name = Release;
+		};
+		18527A4D2C465CC900A26150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.greatify-machine-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "greatify machine test";
+			};
+			name = Debug;
+		};
+		18527A4E2C465CC900A26150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.greatify-machine-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "greatify machine test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18527A182C465CC800A26150 /* Build configuration list for PBXProject "greatify machine test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18527A442C465CC900A26150 /* Debug */,
+				18527A452C465CC900A26150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18527A462C465CC900A26150 /* Build configuration list for PBXNativeTarget "greatify machine test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18527A472C465CC900A26150 /* Debug */,
+				18527A482C465CC900A26150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18527A492C465CC900A26150 /* Build configuration list for PBXNativeTarget "greatify machine testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18527A4A2C465CC900A26150 /* Debug */,
+				18527A4B2C465CC900A26150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18527A4C2C465CC900A26150 /* Build configuration list for PBXNativeTarget "greatify machine testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18527A4D2C465CC900A26150 /* Debug */,
+				18527A4E2C465CC900A26150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18527B672C47A6CB00A26150 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18527B692C47A6DC00A26150 /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18527B672C47A6CB00A26150 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+		18527B6B2C47A70600A26150 /* SwiftUIIntrospect-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18527B672C47A6CB00A26150 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = "SwiftUIIntrospect-Dynamic";
+		};
+		18527B6F2C47A70900A26150 /* SwiftUIIntrospect-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18527B672C47A6CB00A26150 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = "SwiftUIIntrospect-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		18527A2B2C465CC900A26150 /* greatify_machine_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18527A2C2C465CC900A26150 /* greatify_machine_test.xcdatamodel */,
+			);
+			currentVersion = 18527A2C2C465CC900A26150 /* greatify_machine_test.xcdatamodel */;
+			path = greatify_machine_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18527A152C465CC800A26150 /* Project object */;
+}
